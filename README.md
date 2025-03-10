@@ -4,7 +4,7 @@ This project provides PL/SQL scripts for dynamically generating and managing DDL
   1. Dropping existing sequences.
   2. Replacing existing triggers (if any).
   3. Creating new sequences starting with MAX(ID) + 1 for each table.
-  4.Handling primary key columns and ignoring non-numeric or composite keys.
+  4. Handling primary key columns and ignoring non-numeric or composite keys.
 
 ## **Key Features**
   **Dynamic SQL Execution:** DDL statements written inside PL/SQL code.
