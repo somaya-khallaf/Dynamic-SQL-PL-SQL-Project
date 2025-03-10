@@ -18,7 +18,6 @@ declare
       -- v_DATA_TYPE ALL_TAB_COLUMNS.TABLE_NAME%type;
       -- seq USER_SEQUENCES.SEQUENCE_NAME%type := '';
        v_max_id number(5);
-
 begin 
         for table_record in table_cursor loop
                
